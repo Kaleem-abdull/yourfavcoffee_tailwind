@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./build/*.html"],
   theme: {
-    screens: {},
+    screens: {
+      mp: "375px",
+      sm: "640px",
+    },
 
     extend: {
       backgroundImage: {
