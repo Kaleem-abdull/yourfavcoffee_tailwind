@@ -17,22 +17,22 @@
   </head>
   <body class="max-h-screen w-full">
     <header
-      class="text-yellow-500 min-h-screen w-full bg-hero bg-no-repeat bg-cover bg-center bg-fixed text-center pb-32 " id="intro"
+      class="text-yellow-500 min-h-screen w-full bg-[url('../img/antique-cafe-bg-01.jpg')] bg-no-repeat bg-cover bg-center bg-fixed text-center pb-32 " id="intro"
     >
       <div role="navigation" class="pb-20">
         <nav
-          class="text-2xl sticky z-10 text-right p-3 float-right mr-24 flex mp:hidden sm:flex sm:fixed top-0 right-0 "
+          class="text-2xl sticky z-10 text-right p-3 float-right mx-auto flex  md:flex sm:fixed top-0 right-0 "
         >
-          <a href="#intro" class="mr-8 hover:border-b-yellow-400 hover:border-b-4  ">Intro </a>
-          <a href="#menu"  class="mr-8 hover:border-b-yellow-400 hover:border-b-4">Menu </a>
-          <a href="#about" class="mr-8 hover:border-b-yellow-400 hover:border-b-4">About </a>
-          <a href="#contact" class="mr-8 hover:border-b-yellow-400 hover:border-b-4">Contact </a>
+          <a href="#intro" class="mr-8 hover:border-b-yellow-400 hover:border-b-4   ">Intro </a>
+          <a href="#menu"  class="mr-8 hover:border-b-yellow-400 hover:border-b-4 ">Menu </a>
+          <a href="#about" class="mr-8 hover:border-b-yellow-400 hover:border-b-4 ">About </a>
+          <a href="#contact" class="mr-8 hover:border-b-yellow-400 hover:border-b-4 ">Contact </a>
         </nav>
-        <button
-          class="fixed top-0 right-0 z-10 text-right text-4xl p-3 float-right sm:hidden"
+        <!-- <button
+          class="fixed top-0 right-0 z-10 text-right text-4xl p-3 float-right "
         >
           &#9776;
-        </button>
+        </button> -->
       </div>
       <article
         class="text-center items-center p-10 bg-[#00000097] mx-12 sm:w-fit sm:p-20 sm:mx-auto"
@@ -64,18 +64,18 @@
     </header>
     <main class="mx-auto text-center">
       <section 
-        class="bg-zero w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-16" id="menu"
+        class="bg-[url('../img/antique-cafe-bg-02.jpg')] w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-16" id="menu"
       >
         <h2
           class="text-amber-700 text-4xl bg-white rounded-xl py-6 mx-auto text-center w-fit mb-8" 
         >
           Our Cafe Menu
         </h2>
-        <div role="menu"   class="sm:flex sm:mt-16">
+        <div role="menu"   class="md:flex md:mt-16">
         <article
           class="text-center mx-auto bg-yellow-800 rounded-xl mb-2 w-fit p-2"
         >
-          <figure class="flex items-center my-2 mp:block ">
+          <figure class="flex items-center my-2 md:flex  sm:block">
             <img src="./img/menu-item-1.jpg" alt="item1" class="rounded-xl" />
             <figcaption class="ml-2  text-left">
               <h3 class="text-amber-200">Hot Cappuccino</h3>
@@ -83,7 +83,7 @@
               <p class="text-white">L $10.50</p>
             </figcaption>
           </figure>
-          <figure class="flex items-center my-2 mp:block ">
+          <figure class="flex items-center my-2  md:flex  sm:block">
             <img src="./img/menu-item-2.jpg" class="rounded-xl" alt="item2" />
             <figcaption class="ml-2  text-left">
               <h3 class="text-amber-200">Hot Americano</h3>
@@ -91,7 +91,7 @@
               <p class="text-white">L $12.50</p>
             </figcaption>
           </figure>
-          <figure class="flex items-center my-2 mp:block ">
+          <figure class="flex items-center my-2  md:flex  sm:block">
             <img src="./img/menu-item-3.jpg" class="rounded-xl" alt="item3" />
             <figcaption class="ml-2  text-left">
               <h3 class="text-amber-200">Hot Latte #FC6</h3>
@@ -99,7 +99,7 @@
               <p class="text-white">L $14.75</p>
             </figcaption>
           </figure>
-          <figure class="flex items-center my-2 mp:block ">
+          <figure class="flex items-center my-2  md:flex  sm:block">
             <img src="./img/menu-item-4.jpg" class="rounded-xl" alt="item4" />
             <figcaption class="ml-2  text-left">
               <h3 class="text-amber-200">Hot Espresso</h3>
@@ -111,34 +111,34 @@
 
         <!-- 2nd sect  -->
 
-        <article class="text-center mx-auto bg-yellow-800 rounded-xl w-fit">
-          <figure class="flex flex-row-reverse items-center my-4 p-4 mp:block">
+        <article class="text-center mx-auto p-2 bg-yellow-800 rounded-xl w-fit">
+          <figure class="flex flex-row-reverse items-center my-2   md:flex  sm:block">
             <img src="./img/menu-item-5.jpg" class="rounded-xl" alt="item5" />
-            <figcaption class="mr-3">
+            <figcaption class="mr-3 text-left">
               <h3 class="text-amber-200">Iced Cappuccino</h3>
               <p class="text-white">Small $10</p>
               <p class="text-white">Large $15</p>
             </figcaption>
           </figure>
-          <figure class="flex flex-row-reverse items-center my-4 p-4 mp:block">
+          <figure class="flex flex-row-reverse items-center my-2  md:flex  sm:block">
             <img src="./img/menu-item-6.jpg" class="rounded-xl" alt="item6" />
-            <figcaption class="mr-3">
+            <figcaption class="mr-3 text-left">
               <h3 class="text-amber-200">Iced Americano</h3>
               <p class="text-white">Small $12.50</p>
               <p class="text-white">Large $16.50</p>
             </figcaption>
           </figure>
-          <figure class="flex flex-row-reverse items-center my-4 p-4 mp:block">
-            <img src="./img/menu-item-7.jpg" class="rounded-xl" alt="item7" />
-            <figcaption class="mr-3">
+          <figure class="flex flex-row-reverse items-center my-2  md:flex  sm:block">
+            <img src="./img/menu-item-7.jpg " class="rounded-xl" alt="item7" />
+            <figcaption class="mr-3 text-left">
               <h3 class="text-amber-200">Iced Milky Latte #FC6</h3>
               <p class="text-white">Small $14</p>
               <p class="text-white">Large $18</p>
             </figcaption>
           </figure>
-          <figure class="flex flex-row-reverse items-center my-4 p-4 mp:block">
-            <img src="./img/menu-item-8.jpg" class="rounded-xl" alt="item1" />
-            <figcaption class="mr-3">
+          <figure class="flex flex-row-reverse items-center my-2  md:flex  sm:block">
+            <img src="./img/menu-item-8.jpg " class="rounded-xl" alt="item1" />
+            <figcaption class="mr-3 text-left">
               <h3 class="text-amber-200">Iced Espresso</h3>
               <h3 class="text-amber-200">Iced Chocolate</h3>
               <p class="text-white">Small $10.Large $15</p>
@@ -150,11 +150,11 @@
       </div>
 
       <section
-        class="bg-nero w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-32" id="about"
+        class="bg-[url('../img/antique-cafe-bg-03.jpg')] w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-32" id="about"
       >
-      <div class=" sm:flex sm:flex-row-reverse  ">
-        <div></div>
-        <article class="bg-[#ffffff88] p-14 mx-12 rounded-xl sm:w-[40%]  ">
+      <div class="   ">
+        
+        <article class="bg-[#ffffff88] p-14 mx-12 rounded-xl   ">
           <h2 class="text-blue-500 my-6 text-3xl">About Our Cafe</h2>
           <p class="leading-8">
             Images are taken from Pexels, a great stock photo website. This
@@ -170,17 +170,17 @@
         </article>
         
         </div>
-        <button class="bg-teal-600 text-white py-4 px-6 rounded-xl ml-12 my-8 sm:flex absolute  right-0  sm:mr-12">
+        <button class="bg-teal-600 text-white py-4 px-6 rounded-xl  my-8 sm:flex   right-0  mx-auto">
           <a href="#contact"
             ><i class="fa-regular fa-comments mr-4"></i>Contact Us</a
           >
         </button>
       </section>
       <section
-        class="bg-xero w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-4 " id="contact"
+        class="bg-[url('../img/antique-cafe-bg-04.jpg')] w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-4 " id="contact"
       >
-      <div aria-roledescription="contact" class="sm:flex gap-16 ">
-        <article class="bg-[#ffffff88] p-6 mx-12 rounded-xl sm:text-left sm:w-[50%] sm:h-[20%] sm:mt-10 " >
+      <div aria-roledescription="contact" class=" gap-16 ">
+        <article class="bg-[#ffffff88] p-6 rounded-xl mx-16  " >
           <h2 class="text-blue-500 my-6 text-3xl">Contact Us</h2>
           <p class="leading-8">
             Praesent tellus magna, consectetur sit amet volutpat eu, pulvinar
@@ -205,10 +205,10 @@
           </button>
         </article>
         <article>
-          <form action="#" class="bg-[#00000097] rounded-xl p-10 pl-0 m-10 ">
+          <form action="#" class="bg-[#00000097] rounded-xl  pl-0 m-16 ">
             <input
               type="name"
-              class="my-8 bg-[#00000015] px-16 py-4 border-b border-b-yellow-500 pl-0 text-xl"
+              class="my-8 bg-[#00000015]  border-b border-b-yellow-500 pl-0 "
               required
               placeholder="Name"
             />
@@ -216,13 +216,13 @@
 
             <input
               type="email"
-              class="my-8 bg-[#00000015] px-16 py-4 border-b border-b-yellow-500 pl-0 text-xl"
+              class="my-8 bg-[#00000015]  border-b border-b-yellow-500 pl-0 "
               required
               placeholder="Email"
             />
 
             <textarea
-              class="bg-[#00000015] border-b border-b-yellow-500 text-xl"
+              class="bg-[#00000015] border-b border-b-yellow-500 "
               name="message"
               id=""
               placeholder="Message"
