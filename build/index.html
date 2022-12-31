@@ -21,7 +21,7 @@
     >
       <div role="navigation" class="pb-20">
         <nav
-          class="text-2xl sticky z-10 text-right p-3 float-right mx-auto flex  md:flex sm:text-[18px] sm:fixed top-0 right-0 "
+          class=" sticky right-0 z-10  py-3   mx-auto flex  md:flex sm:text-[18px] sm:fixed  md:text-2xl bg-[#00000097] h-[60px] w-full "
         >
           <a href="#intro" class="mr-8 hover:border-b-yellow-400 hover:border-b-4   ">Intro </a>
           <a href="#menu"  class="mr-8 hover:border-b-yellow-400 hover:border-b-4 ">Menu </a>
@@ -154,7 +154,7 @@
       >
       <div class="   ">
         
-        <article class="bg-[#ffffff88] p-14 mx-12 rounded-xl   ">
+        <article class="bg-[#ffffff88] p-14 mx-12 rounded-xl md:w-[40vw]  ">
           <h2 class="text-blue-500 my-6 text-3xl">About Our Cafe</h2>
           <p class="leading-8">
             Images are taken from Pexels, a great stock photo website. This
@@ -168,19 +168,20 @@
             Thank you.
           </p>
         </article>
-        
-        </div>
-        <button class="bg-teal-600 text-white py-4 px-6 rounded-xl  my-8 sm:flex   right-0  mx-auto">
+        <button class="bg-teal-600 text-white py-4 px-6 rounded-xl  my-8    ">
           <a href="#contact"
             ><i class="fa-regular fa-comments mr-4"></i>Contact Us</a
           >
         </button>
+        
+        </div>
+        
       </section>
       <section
         class="bg-[url('../img/antique-cafe-bg-04.jpg')] w-full max-h-full bg-no-repeat bg-cover bg-center bg-fixed py-4 " id="contact"
       >
-      <div aria-roledescription="contact" class=" gap-16 ">
-        <article class="bg-[#ffffff88] p-6 rounded-xl mx-16  " >
+      <div aria-roledescription="contact" class=" md:flex ">
+        <article class="bg-[#ffffff88] p-6 rounded-xl mx-16 md:mt-16  md:w-[40vw] md:h-[60vh]" >
           <h2 class="text-blue-500 my-6 text-3xl">Contact Us</h2>
           <p class="leading-8">
             Praesent tellus magna, consectetur sit amet volutpat eu, pulvinar
@@ -205,13 +206,14 @@
           </button>
         </article>
         <article>
-          <form action="#" class="bg-[#00000097] rounded-xl  pl-0 m-16 ">
+          <form action="#" class="bg-[#00000097] rounded-xl  pl-0 m-16 md:w-[40vw] ">
             <input
               type="name"
               class="my-8 bg-[#00000015]  border-b border-b-yellow-500 pl-0 "
               required
               placeholder="Name"
             />
+            <br />
             <br />
 
             <input
@@ -220,6 +222,8 @@
               required
               placeholder="Email"
             />
+            <br>
+            <br>
 
             <textarea
               class="bg-[#00000015] border-b border-b-yellow-500 "
